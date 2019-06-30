@@ -28,7 +28,7 @@ export default class ViewPagerDemo extends Component {
 
   render() {
     return (
-      <Text>ddd</Text>
+      <Text>hello world</Text>
     );
   }
 }
