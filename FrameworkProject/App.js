@@ -13,6 +13,8 @@ import {
 
 var REQUEST_HOST = "http://demo.edusoho.com";
 
+import EButton from './components/Button/EButton'
+
 export default class ViewPagerDemo extends Component {
 
   constructor(props) {
@@ -25,18 +27,61 @@ export default class ViewPagerDemo extends Component {
 
   }
 
+  _onPress() {
+    //alert('click');
+  }
 
   render() {
     return (
-      <Text>hello world</Text>
+      <View style={{ flex: 1, alignItems: 'center' }}>
+        <View style={{ flex: 1, marginTop: 32, alignItems: 'center', flexDirection: 'column' }}>
+          <Text>普通模式</Text>
+            <View style={styles.container}>
+              <EButton
+                type="normal"
+                onPress={this._onPress}
+              >
+              hello world
+              </EButton>
+              <EButton
+                type="primary"
+                onPress={this._onPress}
+              >
+              hello world
+              </EButton>
+              <EButton
+                type="warn"
+                onPress={this._onPress}
+              >
+              hello world
+              </EButton>
+            </View>
+        </View>
+        <View style={{ flex: 1, marginTop: 32, alignItems: 'center', flexDirection: 'column' }}>
+          <Text>铺满模式</Text>
+            <View style={styles.container}>
+              <EButton
+                mode="full"
+                type="normal"
+                onPress={this._onPress}
+              >
+              hello world
+              </EButton>
+              
+            </View>
+        </View>
+      </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center'
+    width: '100%',
+    padding: 32,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between'
   },
   courseListItemImage: {
     width: 140,

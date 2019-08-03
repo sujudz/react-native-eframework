@@ -34,6 +34,9 @@ const styles = StyleSheet.create({
     colorAccentDark: {
       color: '#FB0413'
     },
+    colorAccentDary: {
+      color: 'rgba(44, 126, 240, 1)'
+    },
     transparent: {
       color: 'rgba(0, 0, 0, 0)'
     },
