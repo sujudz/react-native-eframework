@@ -11,4 +11,4 @@
 	hello world 
 </EButton> 
 ```
-![alt 按钮](../images/button.png)
+![alt 按钮](images/button.png)
