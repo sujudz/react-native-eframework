@@ -1,9 +1,9 @@
-###组件###
+### 组件 
 
-####Button####
+#### Button 
 
-#####mode 显示模式 支持full normal#####
-#####type 样式模式 模式有primay nomal warn#####
+##### mode 显示模式 支持full normal 
+##### type 样式模式 模式有primay nomal warn 
 ``` 
 <EButton mode="full"
     type="normal"
