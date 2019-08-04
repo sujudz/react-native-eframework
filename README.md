@@ -28,3 +28,22 @@
   </EPanel>
 ```
 ![alt 按钮](images/panel.png)
+
+
+#### Icon
+
+``` 
+<EIcon 
+	size="large"
+	color="rgba(44, 126, 254, 1)"
+	icon="icon_review_common"
+/>
+
+<Text>自定义大小</Text>
+<EIcon 
+	fontSize={128}
+	color="rgba(44, 126, 254, 1)"
+	icon="icon_review_good"
+/>
+```
+![alt 按钮](images/icon.png)
