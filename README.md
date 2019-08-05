@@ -47,3 +47,19 @@
 />
 ```
 ![alt 按钮](images/icon.png)
+
+
+#### TabItem
+
+``` 
+<ETabItem
+	style={{ flex: 1 }}
+	icon="icon_review_good"
+	title="标题"
+/>
+<ETabItem
+	style={{ flex: 1 }}
+	title="标题"
+/>
+```
+![alt 按钮](images/tabItem.png)

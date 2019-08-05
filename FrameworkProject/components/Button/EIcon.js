@@ -10,7 +10,6 @@ import BaseStyle from '../.././components/BaseStyle'
 
 const styles = StyleSheet.create({
     fontStyle: {
-      padding: 8,
       fontFamily: "iconfont",
       fontSize: 22,
       color: '#ffffff'
@@ -20,7 +19,8 @@ const styles = StyleSheet.create({
 const iconMap = {
   icon_review_good : '\ue661',
   icon_review_common : '\ue65a',
-  icon_review_bad : '\ue62d'
+  icon_review_bad : '\ue62d',
+  icon_reviews: '\ue682'
 };
 
 const fontSizeLabel = {
